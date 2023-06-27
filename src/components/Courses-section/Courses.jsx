@@ -9,6 +9,8 @@ import CourseCard from "./CourseCard";
 import courso5 from "../../assests/images/curso5.png";
 import courso3 from "../../assests/images/curso3.png";
 import courso2 from "../../assests/images/courses2.jpg";
+import desdeCero from "../../assests/images/desdeCero.jpg";
+import A2 from "../../assests/images/a2.jpg";
 
 const coursesData = [
   {
@@ -39,16 +41,38 @@ const coursesData = [
     rating: 5.9,
     imgUrl: courso2,
   },
+
+  {
+    id: "04",
+    title: "Clase grupal - inglés desde cero - Martes 7pm",
+    description: "Hola",
+    lesson: "Clase por Zoom conversacional. También aprende inglés de negocios. Grupos reducidos.",
+    students: 12.5,
+    rating: 5.9,
+    imgUrl: desdeCero,
+  },
+
+  {
+    id: "05",
+    title: "Clase grupal - Nivel A2 - Sábados 9am",
+    description: "Hola",
+    lesson: "Clase por Zoom conversacional. También aprende inglés de negocios. Grupos reducidos.",
+    students: 12.5,
+    rating: 5.9,
+    imgUrl: A2,
+  },
 ];
 
 const Courses = () => {
   return (
     <section>
       <Container>
-        <Row>
-          <Col lg="12" className="mb-5">
+
+      <Row>
+
+      <Col lg="12" className="mb-5">
             <div className="course__top d-flex justify-content-between align-items-center">
-              <div className="course__top__left w-50">
+              <div className="course__top__left">
                 <h2>Cursos de inglés</h2>
                 <p>
                 Contacta por mensaje o llama por WhatsApp para obtener una clase prueba y evaluar tu nivel de inglés.
@@ -67,7 +91,10 @@ const Courses = () => {
               <CourseCard key={item.id} item={item} />
             </Col>
           ))}
-        </Row>
+      </Row>
+
+
+      
       </Container>
     </section>
   );

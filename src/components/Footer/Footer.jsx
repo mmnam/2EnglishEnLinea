@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import logo from '../Header/logoenglish2.png';
+import { BsFacebook } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
 
 import "./footer.css";
 
@@ -66,7 +68,7 @@ const Footer = () => {
               <span>
                 {" "}
                 <a href="https://www.facebook.com/englishenlinnea">
-                  <i class="ri-facebook-line"></i>
+                <i ><BsFacebook /></i>
                 </a>
               </span>
 
@@ -122,8 +124,8 @@ const Footer = () => {
           <Col lg="3" md="6">
             <h6 className="fw-bold">Contacto</h6>
 
-            <p>Guadalajara, Jalisco.</p>
-            <p> WhatsApp: +52 3313547146</p>
+            <p>Guadalajara, Jalisco. México </p>
+            <p> <a href="https://wa.me/523313547146"> <i > <BsWhatsapp /> </i> </a>+52 - 3313547146</p>
             <p>Email: englishenlinnea@gmail.com</p>
           </Col>
         </Row>

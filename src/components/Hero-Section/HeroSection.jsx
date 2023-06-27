@@ -16,7 +16,7 @@ const HeroSection = () => {
               <p className="mb-5">
               Clases conversacionales grupales e individuales por Zoom. <br /> También aprende inglés de negocios.
               <br /> Preparación para exámenes y entrevistas de trabajo <br />
-              ¡Agenda tu sesión gratis ahora por WhatsApp al 3313547146!
+              ¡Agenda tu sesión gratis ahora por <a href="https://wa.me/523313547146">WhatsApp</a> o <a href="https://www.facebook.com/englishenlinnea">Facebook</a>!
               </p>
             </div>
              {/*<div className="search">

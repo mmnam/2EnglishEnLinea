@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import logo from './logoenglish2.png';
 import "./header.css";
+import { BsFacebook } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
 
 const navLinks = [
   {
@@ -51,13 +53,15 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-facebook-fill"></i>
+                <a href="https://www.facebook.com/englishenlinnea"> <i ><BsFacebook /></i>   </a>
+
               </p>
             </div>
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +52 - 3313547146
+              <a href="https://wa.me/523313547146"> <i ><BsWhatsapp /> </i> </a>+52 - 3313547146 
+                
               </p>
             </div>
 
@@ -66,7 +70,7 @@ const Header = () => {
 
           <div className="mobile__menu">
             <span>
-              <i class="ri-menu-line" onClick={menuToggle}></i>
+            <a href="https://www.facebook.com/englishenlinnea"> <i class="ri-menu-line" onClick={menuToggle}></i></a>
             </span>
           </div>
         </div>

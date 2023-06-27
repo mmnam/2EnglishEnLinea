@@ -19,13 +19,19 @@ const Home = () => {
     <Fragment>
       <Header />
       <HeroSection />
-      <CompanySection />
-      <AboutUs />
+      {/* <CompanySection />*/}
+
+      {/* <AboutUs />*/}
+      
       <Courses />
-      <ChooseUs />
+
+      {/* <ChooseUs />*/}
+      
       <Features />
-      <FreeCourse />
-      <Testimonials />
+
+      {/* <FreeCourse />*/}
+      {/* <Testimonials />*/}
+      
       <Newsletter />
       <Footer />
     </Fragment>
