@@ -1,29 +1,22 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
+import logo from './logoenglish2.png';
 import "./header.css";
 
 const navLinks = [
   {
-    display: "Home",
+    display: "Inicio",
     url: "#",
   },
   {
-    display: "About",
+    display: "Información",
     url: "#",
   },
 
   {
-    display: "Courses",
+    display: "Cursos de inlgés",
     url: "#",
-  },
-  {
-    display: "Pages",
-    url: "#",
-  },
-  {
-    display: "Blog",
-    url: "#",
-  },
+  }
 ];
 
 const Header = () => {
@@ -32,12 +25,16 @@ const Header = () => {
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
   return (
-    <header className="header">
+    <header className=" ">
       <Container>
-        <div className="navigation d-flex align-items-center justify-content-between">
+        <div className="navigation d-flex align-items-center justify-content-between pt-3">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+
+              <img src={logo} style={{with:80, height:80}} />
+
+              
+              {/*<i class="ri-pantone-line"></i> Learners.*/}
             </h2>
           </div>
 
@@ -54,9 +51,17 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
+                <i class="ri-facebook-fill"></i>
               </p>
             </div>
+
+            <div className="nav__right">
+              <p className="mb-0 d-flex align-items-center gap-2">
+                <i class="ri-phone-line"></i> +52 - 3313547146
+              </p>
+            </div>
+
+
           </div>
 
           <div className="mobile__menu">

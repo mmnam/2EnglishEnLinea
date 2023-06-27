@@ -9,20 +9,20 @@ const HeroSection = () => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className="hero__content">
-              <h2 className="mb-4 hero__title">
-                Anytime Anywhere <br /> Learn on your <br /> Suitable Schedule
+          <div className="hero__content">
+              <h2 className="mb-4 pt-4 hero__title">
+              Aprende inglés <br /> en cualquier lugar <br /> en cualquier momento
               </h2>
               <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-                Aut saepe voluptatum earum delectus <br /> deserunt id iste,
-                quas officiis et repellat!
+              Clases conversacionales grupales e individuales por Zoom. <br /> También aprende inglés de negocios.
+              <br /> Preparación para exámenes y entrevistas de trabajo <br />
+              ¡Agenda tu sesión gratis ahora por WhatsApp al 3313547146!
               </p>
             </div>
-            <div className="search">
+             {/*<div className="search">
               <input type="text" placeholder="Search" />
               <button className="btn">Search</button>
-            </div>
+            </div>*/}
           </Col>
 
           <Col lg="6" md="6">

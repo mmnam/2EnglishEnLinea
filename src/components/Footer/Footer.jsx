@@ -1,30 +1,26 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
+import logo from '../Header/logoenglish2.png';
 
 import "./footer.css";
 
 const footerQuickLinks = [
   {
-    display: "Home",
+    display: "Inicio",
     url: "#",
   },
   {
-    display: "About US",
-    url: "#",
-  },
-
-  {
-    display: "Courses",
+    display: "Información",
     url: "#",
   },
 
   {
-    display: "Blog",
+    display: "Cursos de inglés",
     url: "#",
   },
 ];
 
-const footerInfoLinks = [
+{/* */}const footerInfoLinks = [
   {
     display: "Privacy Policy",
     url: "#",
@@ -51,20 +47,30 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="6" className="mb-4">
-            <h2 className=" d-flex align-items-center gap-1">
+
+          <h2 className=" d-flex align-items-center gap-1">
+
+<img src={logo} style={{with:80, height:80}} />
+
+
+{/*<i class="ri-pantone-line"></i> Learners.*/}
+</h2>
+
+            {/*<h2 className=" d-flex align-items-center gap-1">
               <i class="ri-pantone-line"></i> Learners.
-            </h2>
+            </h2>*/}
+            
 
             <div className="follows">
-              <p className="mb-0">Follow us on social media</p>
+              <p className="mb-0">Siguenos en Facebook</p>
               <span>
                 {" "}
-                <a href="facebook.com">
+                <a href="https://www.facebook.com/englishenlinnea">
                   <i class="ri-facebook-line"></i>
                 </a>
               </span>
 
-              <span>
+              {/* <span>
                 {" "}
                 <a href="facebook.com">
                   <i class="ri-instagram-line"></i>
@@ -83,12 +89,14 @@ const Footer = () => {
                 <a href="facebook.com">
                   <i class="ri-twitter-line"></i>
                 </a>
-              </span>
+              </span>*/}
+
+              
             </div>
           </Col>
 
           <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Explore</h6>
+            <h6 className="fw-bold">Explora</h6>
             <ListGroup className="link__list">
               {footerQuickLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
@@ -99,7 +107,7 @@ const Footer = () => {
             </ListGroup>
           </Col>
 
-          <Col lg="3" md="6" className="mb-4">
+          {/* <Col lg="3" md="6" className="mb-4">
             <h6 className="fw-bold">Information</h6>
             <ListGroup className="link__list">
               {footerInfoLinks.map((item, index) => (
@@ -109,14 +117,14 @@ const Footer = () => {
                 </ListGroupItem>
               ))}
             </ListGroup>
-          </Col>
+          </Col>*/}
 
           <Col lg="3" md="6">
-            <h6 className="fw-bold">Get in Touch</h6>
+            <h6 className="fw-bold">Contacto</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Guadalajara, Jalisco.</p>
+            <p> WhatsApp: +52 3313547146</p>
+            <p>Email: englishenlinnea@gmail.com</p>
           </Col>
         </Row>
       </Container>
