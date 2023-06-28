@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import logo from '../Header/logoenglish2.png';
+import logoTransparente from './logoTransparente.png';
 import { BsFacebook } from 'react-icons/bs';
 import { BsWhatsapp } from 'react-icons/bs';
 
@@ -52,7 +52,7 @@ const Footer = () => {
 
           <h2 className=" d-flex align-items-center gap-1">
 
-<img src={logo} style={{with:80, height:80}} />
+<img src={logoTransparente} style={{with:80, height:80}} />
 
 
 {/*<i class="ri-pantone-line"></i> Learners.*/}

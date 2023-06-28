@@ -33,7 +33,7 @@ const Features = () => {
                 <h2 className="mb-3">
                   <i class={item.icon}></i>
                 </h2>
-                <h6>{item.title}</h6>
+                <h6 id='titulo'>{item.title}</h6>
                 <p>{item.desc}</p>
               </div>
             </Col>

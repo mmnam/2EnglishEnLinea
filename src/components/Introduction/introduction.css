@@ -1,0 +1,72 @@
+h2, p, a {
+  font-family: 'Poppins';
+  color:white;
+}
+
+#enlace {
+  color: white
+}
+.introduccion {
+  background-color: #2385C4;
+}
+
+#aprende_tit {
+  font-family: 'Poppins';
+  color:white;
+  line-height: 150%;
+  font-size: 3em;
+}
+
+#aprende_parr {
+  font-family: 'Poppins';
+  color:white;
+  line-height: 250%;
+  font-size: 1.2em;
+}
+
+.aprende_ingles {
+  padding-top: 11em;
+  text-align: center;
+  vertical-align: center;
+  font-family: "Poppins";
+  
+}
+
+.hero__content h2 {
+  font-weight: 600;
+  line-height: 55px;
+}
+
+
+
+.hero__content {
+  padding-top: 80px;
+}
+.search input {
+  border: none;
+  outline: none;
+  padding: 7px 10%;
+}
+
+.search {
+  width: 60%;
+  border: 1px solid #17bf9d44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+/* @media only screen and (max-width: 991px) {
+
+  img {
+  
+    width: 50%;
+    height: 50%;
+  
+  }s
+
+} */
+
+

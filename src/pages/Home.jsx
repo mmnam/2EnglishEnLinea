@@ -13,12 +13,15 @@ import Testimonials from "../components/Testimonial/Testimonials";
 
 import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
+import Introduction from "../components/Introduction/Introduction";
 
 const Home = () => {
   return (
     <Fragment>
       <Header />
-      <HeroSection />
+      <Introduction />
+      
+      {/* <HeroSection />*/}
       {/* <CompanySection />*/}
 
       {/* <AboutUs />*/}

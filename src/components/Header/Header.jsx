@@ -53,7 +53,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <a href="https://www.facebook.com/englishenlinnea"> <i ><BsFacebook /></i>   </a>
+                <a href="https://www.facebook.com/englishenlinnea"> <i id='facebook'><BsFacebook /></i>   </a>
 
               </p>
             </div>
