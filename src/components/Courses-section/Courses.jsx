@@ -17,50 +17,43 @@ const coursesData = [
     id: "01",
     title: "Clases individuales personalizadas",
     
-    lesson: "Clases individuales, conversacionales y personalizadas. Se toman por Zoom. Incluye inglés de negocios. Costo de 230 pesos la hora.",
+    lesson: "Clases individuales, conversacionales y personalizadas por Zoom. Incluye inglés de negocios. Costo: 230 pesos la hora.",
     
     imgUrl: courso5,
   },
 
   {
-    id: "02",
-    title: "Clase grupal - inglés desde cero",
+    id: "05",
+    title: "Inglés Nivel A2 - Grupal - Sábados 9am",
     description: "Hola",
-    lesson: "Clase por Zoom conversacional. Grupos reducidos. Aprende las bases del inglés y comienza a hablar. ",
+    lesson: " ",
     students: 12.5,
     rating: 5.9,
-    imgUrl: courso3,
-  },
-
-  {
-    id: "03",
-    title: "Clase grupal - inglés intermedio",
-    description: "Hola",
-    lesson: "Clase por Zoom conversacional. También aprende inglés de negocios. Grupos reducidos.",
-    students: 12.5,
-    rating: 5.9,
-    imgUrl: courso2,
+    imgUrl: A2,
   },
 
   {
     id: "04",
-    title: "Clase grupal - inglés desde cero - Martes 7pm",
+    title: "Inglés desde cero - Grupal - Martes 7pm",
     description: "Hola",
-    lesson: "Clase por Zoom conversacional. También aprende inglés de negocios. Grupos reducidos.",
+    lesson: " ",
     students: 12.5,
     rating: 5.9,
     imgUrl: desdeCero,
   },
 
   {
-    id: "05",
-    title: "Clase grupal - Nivel A2 - Sábados 9am",
+    id: "03",
+    title: "Inglés intermedio B1 - Grupal",
     description: "Hola",
-    lesson: "Clase por Zoom conversacional. También aprende inglés de negocios. Grupos reducidos.",
+    lesson: "Clase por Zoom conversacional. También aprende inglés de negocios. Grupo reducido.",
     students: 12.5,
     rating: 5.9,
-    imgUrl: A2,
+    imgUrl: courso2,
   },
+
+  
+  
 ];
 
 const Courses = () => {

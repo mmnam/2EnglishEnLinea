@@ -10,12 +10,12 @@ const HeroSection = () => {
         <Row>
           <Col lg="6" md="6">
           <div className="hero__content">
-              <h2 className="mb-4 pt-4 hero__title">
+              <h2 className="mb-4 hero__title">
               Aprende inglés <br /> en cualquier lugar <br /> en cualquier momento
               </h2>
               <p className="mb-5">
-              Clases conversacionales grupales e individuales por Zoom. <br /> También aprende inglés de negocios.
-              <br /> Preparación para exámenes y entrevistas de trabajo <br />
+              Clases conversacionales <b>grupales</b> e <b>individuales</b> por Zoom. <br /> También aprende inglés de <b>negocios</b>.
+              <br /> Preparación para <b>exámenes</b> y <b>entrevistas de trabajo</b> <br />
               ¡Agenda tu sesión gratis ahora por <a href="https://wa.me/523313547146">WhatsApp</a> o <a href="https://www.facebook.com/englishenlinnea">Facebook</a>!
               </p>
             </div>

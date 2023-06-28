@@ -10,7 +10,7 @@ const CourseCard = (props) => {
       </div>
 
       <div className="course__details">
-        <h6 className="course__title mb-4">{title}</h6>
+        <h3 className="course__title mb-4">{title}</h3>
 
         {/*<div className=" d-flex justify-content-between align-items-center">
           <p className="rating d-flex align-items-center gap-1">

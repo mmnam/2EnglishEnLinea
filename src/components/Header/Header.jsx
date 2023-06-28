@@ -16,7 +16,7 @@ const navLinks = [
   },
 
   {
-    display: "Cursos de inlgés",
+    display: "Cursos de inglés",
     url: "#",
   }
 ];
