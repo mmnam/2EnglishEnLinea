@@ -78,7 +78,7 @@ const Courses = () => {
               <div className="course__top__left">
                 <h2>Cursos de inglés</h2>
                 <p id='contacta'>
-                Contacta por mensaje o llama por WhatsApp para obtener una clase prueba y evaluar tu nivel de inglés.
+                Contacta por mensaje o llama por <a href="https://wa.me/523313547146">WhatsApp</a> para obtener una clase prueba y evaluar tu nivel de inglés.
                 </p>
               </div>
 
