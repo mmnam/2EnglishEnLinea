@@ -4,7 +4,7 @@ import "./features.css";
 
 const FeatureData = [
   {
-    title: "Prepárate para hablar inglés",
+    title: "Prepárate y habla inglés",
     desc: "",
     icon: "ri-draft-line",
   },
