@@ -103,7 +103,7 @@ function Tips(args) {
   return (
     <section ref={refTips} id="refTips">
       <Container className="carousel carousel-dark slide">
-        <div className='tipTexto'>
+        <div className='tipTexto mb-5'>
 
         <h2>Tips importantes para mejorar tu inglés </h2>
         <p id="parrafo">Aprende estos tips para evitar errores comunes al hablar y tu inglés mejorará mucho en muy poco tiempo.</p>

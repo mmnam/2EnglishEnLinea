@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import logoTransparente from './logoTransparente.png';
 import { BsFacebook } from 'react-icons/bs';
@@ -12,13 +12,12 @@ const footerQuickLinks = [
     url: "#",
   },
   {
-    display: "Información",
-    url: "#",
-  },
-
-  {
     display: "Cursos de inglés",
-    url: "#",
+    url: "#refCursos",
+  },
+  {
+    display: "Tips de Inglés",
+    url: "#refTips",
   },
 ];
 
