@@ -1,11 +1,11 @@
 import React from "react";
+import { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./courses.css";
 import CourseCard from "./CourseCard";
 
 import courso5 from "../../assests/images/curso5.png";
 import courso2 from "../../assests/images/courses2.jpg";
-import desdeCero from "../../assests/images/desdeCero.jpg";
 import A2 from "./A2.svg";
 import ceroMartes from "./ceroMartes.svg";
 import ceroJueves from "./ceroJueves.svg";
@@ -67,8 +67,10 @@ const coursesData = [
 ];
 
 const Courses = () => {
+
+  const refCursos = useRef();
   return (
-    <section>
+    <section ref={refCursos} id="refCursos">
       <Container>
 
       <Row>

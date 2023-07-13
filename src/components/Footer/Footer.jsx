@@ -126,7 +126,7 @@ const Footer = () => {
 
             <p>Guadalajara, Jalisco. México </p>
             <p> <a href="https://wa.me/523313547146"> <i > <BsWhatsapp /> </i> </a>+52 - 3313547146</p>
-            <p>Email: englishenlinnea@gmail.com</p>
+            <p>englishenlinnea@gmail.com</p>
           </Col>
         </Row>
       </Container>

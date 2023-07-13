@@ -10,19 +10,26 @@ const navLinks = [
     display: "Inicio",
     url: "#",
   },
-  {
-    display: "Información",
-    url: "#",
-  },
 
   {
     display: "Cursos de inglés",
-    url: "#",
-  }
+    url: "#refCursos",
+  },
+  {
+    display: "Tips de Inglés",
+    url: "#refTips",
+  },
 ];
 
 const Header = () => {
   const menuRef = useRef();
+
+  const refTips = useRef();
+  const refCursos = useRef();
+
+  const handleClick = () => {
+    refCursos.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
@@ -45,7 +52,7 @@ const Header = () => {
               <ul className="nav__list">
                 {navLinks.map((item, index) => (
                   <li key={index} className="nav__item">
-                    <a href={item.url}>{item.display}</a>
+                    <a href={item.url} onClick={handleClick}>{item.display}</a>
                   </li>
                 ))}
               </ul>
