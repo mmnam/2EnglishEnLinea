@@ -3,6 +3,11 @@ h2, p {
   color:white;
 }
 
+#guy {
+  width: 500px;
+  height: 560px;
+}
+
 #enlace {
   color: white
 }
@@ -25,7 +30,7 @@ h2, p {
 }
 
 .aprende_ingles {
-  padding-top: 11em;
+  padding-top: 5em;
   text-align: center;
   vertical-align: center;
   font-family: "Poppins";
@@ -56,6 +61,13 @@ h2, p {
   align-items: center;
   border-radius: 50px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+  #guy {
+      width: 400px;
+      height: 448px;
+  }
 }
 
 /* @media only screen and (max-width: 991px) {

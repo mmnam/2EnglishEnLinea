@@ -26,9 +26,9 @@ export default function Introduction() {
       
       </div> 
 
-      <div className='col'>
+      <div className='col text-center'>
 
-      <img src={guy} />      
+      <img src={guy} id='guy' /* className='img-fluid' *//>      
       
       </div>  
       </div>

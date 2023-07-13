@@ -19,6 +19,10 @@ const navLinks = [
     display: "Tips de Inglés",
     url: "#refTips",
   },
+  {
+    display: <i className="mobile__menu" id='facebook'><BsFacebook /></i>,
+    url: "https://www.facebook.com/englishenlinnea",
+  },
 ];
 
 const Header = () => {
@@ -77,7 +81,7 @@ const Header = () => {
 
           <div className="mobile__menu">
             <span>
-            <a href="https://www.facebook.com/englishenlinnea"> <i class="ri-menu-line" onClick={menuToggle}></i></a>
+             <i class="ri-menu-line" onClick={menuToggle}></i>
             </span>
           </div>
         </div>
